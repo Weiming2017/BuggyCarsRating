@@ -1,0 +1,24 @@
+{
+  "name": "buggy-cars-rating",
+  "version": "1.0.0",
+  "description": "Tests for buggy cars rating project",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --browser chrome --spec \"**/*.feature\"",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing"
+  ],
+  "author": "Weiming Chen",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^4.9.0",
+    "cypress-cucumber-preprocessor": "^2.5.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
