@@ -1,12 +1,14 @@
 {
   "newUser": {
-    "username": "test#9",
+    "username": "test#16",
     "firstName": "fn",
     "lastName": "ln",
     "password": "abcdEf@1"
   },
   "existingUser": {
     "username": "test#1",
-    "password": "abcdEf@1"
-  }
+    "password": "abcdEf@1",
+    "updatedFirstName": "fn1"
+  },
+  "comment": "A comment"
 }

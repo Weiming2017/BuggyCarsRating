@@ -25,6 +25,10 @@ class HomePage {
     cy.get("a[href*=register]").click();
   }
 
+  goToProfilePage() {
+    cy.get("a[href*=profile]").click();
+  }
+
   selectPopularMake() {
     this.#getPopularMakeLink().click();
   }
